@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transformación Física</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      background-color: #f2f2f2;
+      color: #333;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      background-color: #444;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+    }
+    nav a:hover {
+      background-color: #ff5722;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+      background-color: white;
+      margin-bottom: 20px;
+      border-radius: 10px;
+    }
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    h2 {
+      color: #ff5722;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    iframe {
+      width: 100%;
+      height: 315px;
+      margin-top: 20px;
+      border-radius: 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      padding: 10px;
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+    th {
+      background-color: #ff5722;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Transforma tu Cuerpo</h1>
+    <p>Guía para personas delgadas y con sobrepeso</p>
+  </header>
+
+  <nav>
+    <a href="#delgados">Delgados</a>
+    <a href="#obesos">Obesos</a>
+    <a href="#tips">Consejos</a>
+  </nav>
+
+  <section id="delgados">
+    <h2>Transformación para personas delgadas</h2>
+    <p>Si eres delgado y quieres aumentar masa muscular, sigue estos pasos:</p>
+    <ul>
+      <li>Consume más calorías de las que gastas.</li>
+      <li>Enfócate en alimentos ricos en nutrientes: arroz, avena, carne magra, frutos secos.</li>
+      <li>Entrena con pesas 3-5 veces por semana.</li>
+      <li>Descansa bien: al menos 7-8 horas por noche.</li>
+      <li>Evita el exceso de cardio.</li>
+    </ul>
+    <img src="https://images.unsplash.com/photo-1599058917212-d750089bc03c" alt="Entrenamiento para personas delgadas">
+    <iframe src="https://www.youtube.com/embed/2tM1LFFxeKg" title="Rutina para aumentar masa muscular"></iframe>
+
+    <h3>Rutina semanal sugerida</h3>
+    <table>
+      <tr><th>Día</th><th>Ejercicio</th></tr>
+      <tr><td>Lunes</td><td>Pecho y tríceps</td></tr>
+      <tr><td>Martes</td><td>Espalda y bíceps</td></tr>
+      <tr><td>Miércoles</td><td>Descanso o cardio suave</td></tr>
+      <tr><td>Jueves</td><td>Piernas</td></tr>
+      <tr><td>Viernes</td><td>Hombros y abdominales</td></tr>
+      <tr><td>Sábado</td><td>Circuito full body</td></tr>
+      <tr><td>Domingo</td><td>Descanso</td></tr>
+    </table>
+  </section>
+
+  <section id="obesos">
+    <h2>Transformación para personas con sobrepeso</h2>
+    <p>Si tienes sobrepeso y quieres bajar grasa corporal, enfócate en:</p>
+    <ul>
+      <li>Déficit calórico: consume menos calorías de las que gastas.</li>
+      <li>Alimentos naturales: vegetales, proteínas magras, frutas.</li>
+      <li>Entrenamiento combinado: pesas + cardio (caminata, bici, HIIT).</li>
+      <li>Beber mucha agua y evitar bebidas azucaradas.</li>
+      <li>Disciplina y constancia: pequeños cambios cada día.</li>
+    </ul>
+    <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1" alt="Ejercicio para perder peso">
+    <iframe src="https://www.youtube.com/embed/UBMk30rjy0o" title="Ejercicios para bajar de peso"></iframe>
+
+    <h3>Rutina semanal sugerida</h3>
+    <table>
+      <tr><th>Día</th><th>Ejercicio</th></tr>
+      <tr><td>Lunes</td><td>Caminata + circuito ligero (pesas ligeras)</td></tr>
+      <tr><td>Martes</td><td>Cardio HIIT 20 min + abdominales</td></tr>
+      <tr><td>Miércoles</td><td>Yoga o movilidad + paseo</td></tr>
+      <tr><td>Jueves</td><td>Entrenamiento funcional + pesas</td></tr>
+      <tr><td>Viernes</td><td>Bicicleta + ejercicios de core</td></tr>
+      <tr><td>Sábado</td><td>Caminata larga o senderismo</td></tr>
+      <tr><td>Domingo</td><td>Descanso activo</td></tr>
+    </table>
+  </section>
+
+  <section id="tips">
+    <h2>Consejos Generales</h2>
+    <ul>
+      <li>Consulta a un nutricionista o entrenador personal.</li>
+      <li>No te compares con otros, enfócate en tu progreso.</li>
+      <li>La transformación toma tiempo, sé paciente y constante.</li>
+      <li>Lleva un registro de tus avances con fotos y medidas.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Transforma tu Cuerpo. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
